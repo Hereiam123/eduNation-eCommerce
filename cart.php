@@ -29,10 +29,6 @@
 		else if(isset ($_GET['action']) && ($_GET['action'] == 'viewCart'))
 		{
 			$r = mysqli_query($dbc, "CALL get_shopping_cart_contents('$uid')");
-			foreach()
-			{
-				
-			}
 		}
 		
 		else if (isset ($sp_type, $pid, $_GET['action'] ) && ($_GET['action'] =='remove') ) 
