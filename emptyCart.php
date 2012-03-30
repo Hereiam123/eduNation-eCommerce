@@ -1,10 +1,10 @@
 <?php
 	require ('./includes/config.inc.php');
-	require ('./includes/cart_function.inc.php');
+	require ('./includes/cart_functions.inc.php');
 	require (MYSQL);
 	include ('./includes/header.php');
-	
 ?>
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -105,15 +105,5 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid_9 prefix_2 suffix_1">
-				<div id="footer">
-				<p>This site is not official and is an assignment for a UCF Digital Media course - <em class="it">designed by Michael Harrison</em></p>
-			</div>
-			</div>
-		
-	</div>
 
-</body>
-</html>
-
-<?php require('./includes/footer.php');?>
+<?php include ('./includes/header.php'); ?>
