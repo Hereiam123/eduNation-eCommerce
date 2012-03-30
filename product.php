@@ -101,7 +101,7 @@
 						?>
 						<p>Qty:<input type="text" /></p>
 						<p><?php echo $productDesc ?></p>
-						<div class="tab4"><a href="#">Add to Cart</a></div>
+						<div class="tab4"><a href="./cart.php?action=add&sku=<?php echo $row['category_id'].$row['id']?>">Add to Cart</a></div>
 					</div>
 				</div>
 						<?php

@@ -11,7 +11,7 @@ $contact_email = 'gregpardo@knights.ucf.com';
 
 // Determine location of files and the URL of the site:
 define ('BASE_URI', 'private/');
-define ('BASE_URL', 'localhost/edunation/');
+define ('BASE_URL', 'localhost/eduNation-eCommerce');
 define ('PDFS_DIR', BASE_URI . 'pdfs/'); // Added in Chapter 5.
 define ('MYSQL', BASE_URI . 'mysql.inc.php');
 

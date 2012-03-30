@@ -73,7 +73,7 @@
 					<div class="grid_7">
 						<ul class="right">
 							<li>Welcome Back!  You are currently logged in as <?php echo getUserNameLink(); ?>.</li>
-							<li><div class= "tab4"><a href="cart.php">CART (3)</a></div></li>
+							<li><div class= "tab4"><a href="cart.php?action=viewCart">CART</a></div></li>
 						</ul>
 					</div>
 
